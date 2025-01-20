@@ -13,7 +13,7 @@ and fills a rain barrel when the soil becomes too dry.  The sensor data is gathe
 has an ethernet shield and uses power over ethernet.  
 
 Next I used [InfluxDB](https://www.influxdata.com/) to scrape the arduino page in prometheus data format.  There are 3 soil sensors, and a multi-sensor for humidity, pressure, and temperature.  
-[!](assets/img/moisture-sensors.png)
+[!](/assets/img/moisture-sensors.png)
 This is a graph of the moisture senors.  The higher the value the drier the soil.
 
 The result is a time series graph of the scraped data.  There is also a script that averages the three soil sensors and runs a sump pump in the lake for 10 minutes
