@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Automated garden
-subtitle: 
+subtitle: Arduino with soil sensors reporting to a time series database
 gh-repo: 
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [arduino, influxdb, python]
 comments: true
 ---
 
