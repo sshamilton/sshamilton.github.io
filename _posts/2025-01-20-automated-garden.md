@@ -19,3 +19,12 @@ This is a graph of the moisture senors.  The higher the value the drier the soil
 The result is a time series graph of the scraped data.  There is also a script that averages the three soil sensors and runs a sump pump in the lake for 10 minutes
 to fill the rain barrel.
 
+I was expecting to use Grafana, but the new InfluxDB graphs are pretty good so I decdied to keep it more simple.  The next step is to have the watering 
+script notify InfluxDB that the water is on so that I can compare the moisture level from when the water kicks on.  It would be nice to know exactly when it is on and 
+what the delay is from when the moisture sensors begin to see the change.
+
+Here are more pictures of the other sensor graphs:
+![Humidity](/assets/img/humidity.png)
+![Pressure](/assets/img/pressure.png)
+
+
