@@ -31,6 +31,12 @@ Humidity over time
 ![Pressure](/assets/img/pressure.png)
 Pressure over time.
 
+![Soil Sensor](/assets/img/soil-sensor.png)
+This is the soil sensor I'm using.
+
+![Temperature Sensor](/assets/img/temp-sensor.png)
+This is the temperature/humidity/pressure sensor I'm using.
+
 
 The code for this project is located here: [Autogarden](https://github.com/sshamilton/autogarden/tree/main)
 
