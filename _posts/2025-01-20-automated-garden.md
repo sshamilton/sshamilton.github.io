@@ -24,7 +24,13 @@ script notify InfluxDB that the water is on so that I can compare the moisture l
 what the delay is from when the moisture sensors begin to see the change.
 
 Here are more pictures of the other sensor graphs:
-![Humidity](/assets/img/humidity.png)
-![Pressure](/assets/img/pressure.png)
 
+![Humidity](/assets/img/humidity.png)
+Humidity over time
+
+![Pressure](/assets/img/pressure.png)
+Pressure over time.
+
+
+The code for this project is located here: [Autogarden](https://github.com/sshamilton/autogarden/tree/main)
 
